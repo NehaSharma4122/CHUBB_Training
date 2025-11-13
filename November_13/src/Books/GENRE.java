@@ -1,0 +1,6 @@
+package Books;
+
+public enum GENRE {
+	NON_FICTIONAL,
+	MYSTERY, HORROR,CRIME, THRILLER, ROMCOM, COMEDY
+}

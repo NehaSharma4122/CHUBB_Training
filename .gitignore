@@ -1,1 +1,53 @@
-/.metadata/
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+/build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# IDE-specific files (e.g., IntelliJ IDEA, Eclipse)
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.metadata/
+/bin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*~
+#*#
+.#*
+*.bak
+*.swp
+*.swo
